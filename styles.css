@@ -1,0 +1,39 @@
+body {
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    background-image: url("weather-bg.jpg");
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #f4eded;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    background-color: #959ca4;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
